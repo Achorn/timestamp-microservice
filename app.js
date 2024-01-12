@@ -62,7 +62,6 @@ app.get("/api/:date?", function (req, res) {
 });
 
 // listen for requests :)
-//TODO remove || 3000 when finished
 var listener = app.listen(process.env.PORT || 3000, function () {
   console.log("Your app is listening on port " + listener.address().port);
 });
